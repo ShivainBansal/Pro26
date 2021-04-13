@@ -1,0 +1,151 @@
+Shivain@RBansal MINGW32 ~
+$ pwd
+/c/Users/Shivain
+
+Shivain@RBansal MINGW32 ~
+$ cd
+
+Shivain@RBansal MINGW32 ~
+$ cd
+
+Shivain@RBansal MINGW32 ~
+$ cd
+
+Shivain@RBansal MINGW32 ~
+$ pwd
+/c/Users/Shivain
+
+Shivain@RBansal MINGW32 ~
+$ cd dekstop
+bash: cd: dekstop: No such file or directory
+
+Shivain@RBansal MINGW32 ~
+$ cd desktop
+
+Shivain@RBansal MINGW32 ~/desktop
+$ ls
+ 687.txt                      'Excel 2013.lnk'*       'PowerPoint 2013.lnk'*            'WhiteHat Jr'/           gfyseaegyserrgf.PNG
+ 6ert6hd.PNG                  'French activity.docx'  'School work & notes & freinds'/  'Word 2013.lnk'*         hyu8iiyu7trgfhyuhjy.PNG
+ Antivirus/                   'Git Bash.lnk'*         'Screenshots - Shortcut.lnk'*     'Zoom - Shortcut.lnk'*   nfhgchhhhhhhcnjhb.PNG
+'Apowersoft - Shortcut.lnk'*  'Life lessons'/         'Shop Cameras'/                    Zoom.lnk*               thy6uy.PNG
+ Apps/                        'My creations'/          Sleep.lnk*                        desktop.ini             tytyhry.PNG
+'Coloured print outs'/         Notepad.lnk*           'Visual Studio Code.lnk'*          drtghdtg.PNG            vjkftgjh.PNG
+'Diksha dashboard.url'        'Phone no..xlsx'         WhatsApp.lnk*                     fgbbbbxdbgd.PNG
+
+Shivain@RBansal MINGW32 ~/desktop
+$ cd ^C
+
+Shivain@RBansal MINGW32 ~/desktop
+$ ^C
+
+
+
+Shivain@RBansal MINGW32 ~/desktop
+$ cdWhiteHat Jr'
+>
+>
+>
+>
+>
+> ^C
+
+Shivain@RBansal MINGW32 ~/desktop
+$ cd WhiteHat Jr
+bash: cd: too many arguments
+
+Shivain@RBansal MINGW32 ~/desktop
+$ cd WhiteHatJr
+
+Shivain@RBansal MINGW32 ~/desktop/WhiteHatJr
+$ mkdir MyRecipes
+
+Shivain@RBansal MINGW32 ~/desktop/WhiteHatJr
+$ cd My*
+
+Shivain@RBansal MINGW32 ~/desktop/WhiteHatJr/MyRecipes
+$ git clone https://github.com/ShivainBansal/Pro26.git
+Cloning into 'Pro26'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+Shivain@RBansal MINGW32 ~/desktop/WhiteHatJr/MyRecipes
+$ cd Pro26
+
+Shivain@RBansal MINGW32 ~/desktop/WhiteHatJr/MyRecipes/Pro26 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ingredients.md
+        recepie.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Shivain@RBansal MINGW32 ~/desktop/WhiteHatJr/MyRecipes/Pro26 (main)
+$ git add README.md
+
+Shivain@RBansal MINGW32 ~/desktop/WhiteHatJr/MyRecipes/Pro26 (main)
+$ git add ingredients.md
+
+Shivain@RBansal MINGW32 ~/desktop/WhiteHatJr/MyRecipes/Pro26 (main)
+$ git add recepie.md
+
+Shivain@RBansal MINGW32 ~/desktop/WhiteHatJr/MyRecipes/Pro26 (main)
+$ git commit -m "my recepie"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Shivain@RBansal.(none)')
+
+Shivain@RBansal MINGW32 ~/desktop/WhiteHatJr/MyRecipes/Pro26 (main)
+$ git config --global user.email "hello.shivain.here@gmail.com"
+
+Shivain@RBansal MINGW32 ~/desktop/WhiteHatJr/MyRecipes/Pro26 (main)
+$ git config --global user.name "ShivainBansal"
+
+Shivain@RBansal MINGW32 ~/desktop/WhiteHatJr/MyRecipes/Pro26 (main)
+$ git commit -m "my recepie"
+[main c44db36] my recepie
+ 3 files changed, 20 insertions(+)
+ create mode 100644 ingredients.md
+ create mode 100644 recepie.md
+
+Shivain@RBansal MINGW32 ~/desktop/WhiteHatJr/MyRecipes/Pro26 (main)
+$ git remote add Pro26 https://github.com/ShivainBansal/Pro26.git
+
+Shivain@RBansal MINGW32 ~/desktop/WhiteHatJr/MyRecipes/Pro26 (main)
+$ git push -u https://github.com/ShivainBansal/Pro26.git
+
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (5/5), 650 bytes | 46.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/ShivainBansal/Pro26.git
+   6e6c4a1..c44db36  main -> main
+Branch 'main' set up to track remote branch 'main' from 'https://github.com/ShivainBansal/Pro26.git'.
+
+Shivain@RBansal MINGW32 ~/desktop/WhiteHatJr/MyRecipes/Pro26 (main)
+$
+
+Shivain@RBansal MINGW32 ~/desktop/WhiteHatJr/MyRecipes/Pro26 (main)
+$
